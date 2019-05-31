@@ -1,0 +1,259 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* My Reset*/
+html {
+    font-size: 16px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 400;
+  }
+  img{
+    max-width: 100%;
+  }
+  h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+  }
+  h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+  }
+  h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+  }
+  h4 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+  }
+  h5 {
+    font-size: 1rem;
+    font-weight: 700;
+  }
+  h6 {
+    font-size: 0.75rem;
+    font-weight: 700;
+  }
+  p {
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    line-height: 1.5;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  a {
+    text-decoration: none;
+    display: inline-block;
+  }
+  /* General CSS */
+.container {
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+  .text-center {
+    text-align: center;
+  }
+  body {
+      background-image: url(../media/bg.jpg);
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: block;
+      visibility: visible;
+      opacity: unset; 
+  }
+  .pic1 {
+      width: 100%;
+  }
+  .hero-heading {
+      color: #ffffff;
+      text-transform: uppercase;
+
+      padding-top: 4rem;
+  }
+  .hero-para {
+      color: #ffffff;
+      padding-bottom: 3rem;
+
+  }
+  .section2 {
+      background-color: #ffffff;
+      margin: 0 4rem;
+     
+  }
+  .heading1 {
+      font-weight: 600;
+      padding-top: 3rem;
+  }
+  .para1 {
+      color: rgb(99, 96, 96);
+      padding-bottom: 3rem;
+  }
+  .hr1 {
+    width: 10%;
+    color: rgb(199, 196, 196);
+    border: 1px solid;
+  }
+  .section3 {
+    background-color: mintcream;
+    margin: 0 4rem;
+  }
+  .para2 {
+    font-size: 1rem;
+    justify-content: space-evenly;
+    padding: 3rem 5rem 1.5rem 5rem;
+  }
+  .para3 {
+    font-size: 1rem;
+    justify-content: space-evenly;
+    padding: 0 5rem 5rem 5rem;
+  }
+  .section4 {
+      background-color: #1e1f23;
+      margin: 0 4rem;
+  }
+  .heading2 {
+      color: #ffffff;
+      font-weight: 600;
+  }
+  .para4 {
+      color: #121315;
+  }
+  .hr2 {
+    width: 10%;
+    border: 1px solid; 
+    color: #121315;
+  }
+  .img1, .img2, .img3, .img4 {
+      height: 20rem;
+      width: 30rem;
+  }
+  .set1, .set2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .section5{
+      background-color: #1e1f23;
+      padding-top: 5rem;
+      margin: 0 4rem;
+  }
+   .img5,.img6, .img7 {
+    height: 25rem;
+    width: 35rem;
+  }
+   
+  
+  .box1, .box2, .box3 {
+    height: 25rem;
+    width: 35rem;
+  }
+  .box1 {
+      background-color: #ffffff;
+      padding: 4rem 2rem;
+  }
+  .box2 {
+      background-color: #1e1f23;
+      padding: 4rem 2rem;
+  }
+  .box3 {
+      background-color: #ffffff;
+      padding: 4rem 2rem;
+  }
+  .set3, .set4, .set5 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .heading3 {
+    color: black;
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 2rem 0;
+  }
+  .heading4 {
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 2rem 0;
+  }
+  .heading5 {
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 2rem 0;
+  }
+  .social-icons {
+      color: #ffffff;
+      font-size: 1.5rem;
+      margin-right: 1rem;
+  }
+  .footer-icons {
+      padding: 3rem 0;
+     
+  }
+  .copyright {
+      padding-bottom: 2rem;
+      color: #ffffff;
+  }
